@@ -1,0 +1,844 @@
+<?xml version="1.0"?>
+<config version="11.0.0" urldb="paloaltonetworks" detail-version="11.0.2">
+  <mgt-config>
+    <devices/>
+    <users>
+      <entry name="admin">
+        <phash>$5$mussqwgm$g6hC/qCdi15sXOXEhKrzPGlFQQWDkPSFkAu6.LXV3QC</phash>
+        <permissions>
+          <role-based>
+            <superuser>yes</superuser>
+          </role-based>
+        </permissions>
+        <public-key>c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCZ1FEUGQ0REd4SzhjWGxJRWRYVWRuL0MwRHpmZGw5U2RwRnVBK2xWUWpTcGZYUzQ5d2QvVlo5Q0swUDRHK1pLL1FjNmVXcjB5Qmg1d1l5d2MzU3p1OStSR3E4aUJFK0VkTmZxU2dlWGJYTVVlTkR3OEJDK0FWdjJYSjdid2orS3J0cjBWWkV5RU4xQlFJaHFxWUNhamNlcE1YdThXTjlvdmwyNTNqK0NpYlJ6SG9kZFlsM05NUWRjb2ZLa0lqWW8xUlNHNFp6NUVHMFRQbDRaN0k3ZkozbTVPdzliWkVKN05FdS9KV080UCtpQk43dGFDeTJvRjRYaW9oRzJ6aWE3WEhDWTZOdU5CQzkveHRjS3BVaHVjMkpSKzJmTHlIM0FJNTdrOXMzWDNTZkEzSDZqMVhRZkV0L29JUEFlTXlmL2pYR3ZpTEMxQjY1MDRnT0R1d09ERXAvcjhPeEYrTVJCU3NQWlBRdDNNM1FaWFNEUndYQ1lvMEc4U1FRcWpuRmpEd204TDZpOFlQWk1DVWN0aEFNMzl5WDVnd0p5SkhKcHRNYU93aENTcUlYY0Jqb09OL2lkaG5EcFcvYUJnZmpibWVMMHUzYndBWHlSVWw4aDRweEZGWVpaYSs4dld0TUx3MHZMRUt5QlNJUzZiZWV3L1J4VmpUbm1UcldnM1ZpSDlEM0U9Cg==</public-key>
+      </entry>
+      <entry name="azureuser">
+        <public-key>c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCZ1FEUGQ0REd4SzhjWGxJRWRYVWRuL0MwRHpmZGw5U2RwRnVBK2xWUWpTcGZYUzQ5d2QvVlo5Q0swUDRHK1pLL1FjNmVXcjB5Qmg1d1l5d2MzU3p1OStSR3E4aUJFK0VkTmZxU2dlWGJYTVVlTkR3OEJDK0FWdjJYSjdid2orS3J0cjBWWkV5RU4xQlFJaHFxWUNhamNlcE1YdThXTjlvdmwyNTNqK0NpYlJ6SG9kZFlsM05NUWRjb2ZLa0lqWW8xUlNHNFp6NUVHMFRQbDRaN0k3ZkozbTVPdzliWkVKN05FdS9KV080UCtpQk43dGFDeTJvRjRYaW9oRzJ6aWE3WEhDWTZOdU5CQzkveHRjS3BVaHVjMkpSKzJmTHlIM0FJNTdrOXMzWDNTZkEzSDZqMVhRZkV0L29JUEFlTXlmL2pYR3ZpTEMxQjY1MDRnT0R1d09ERXAvcjhPeEYrTVJCU3NQWlBRdDNNM1FaWFNEUndYQ1lvMEc4U1FRcWpuRmpEd204TDZpOFlQWk1DVWN0aEFNMzl5WDVnd0p5SkhKcHRNYU93aENTcUlYY0Jqb09OL2lkaG5EcFcvYUJnZmpibWVMMHUzYndBWHlSVWw4aDRweEZGWVpaYSs4dld0TUx3MHZMRUt5QlNJUzZiZWV3L1J4VmpUbm1UcldnM1ZpSDlEM0U9Cg==</public-key>
+        <permissions>
+          <role-based>
+            <superuser>yes</superuser>
+          </role-based>
+        </permissions>
+      </entry>
+      <entry name="__vm_series">
+        <phash>$5$yqcbmrke$R8.F2ujSXzPonewjMGeci5zPZysABimILIducoMX8A1</phash>
+        <permissions>
+          <role-based>
+            <panorama-admin>yes</panorama-admin>
+          </role-based>
+        </permissions>
+      </entry>
+      <entry name="__azure">
+        <phash>$5$rhtaakbb$GV4k1b4AxjADAhbN3UVKS5SKcBDPdoMcDV4LI6Bi5q/</phash>
+        <permissions>
+          <role-based>
+            <panorama-admin>yes</panorama-admin>
+          </role-based>
+        </permissions>
+      </entry>
+      <entry name="__cloudconnector">
+        <phash>$5$xyyyyvva$KlEPqmBVusz6X98FdgRC2tyw5UHulacG0ZiFM01HXU6</phash>
+        <permissions>
+          <role-based>
+            <panorama-admin>yes</panorama-admin>
+          </role-based>
+        </permissions>
+      </entry>
+    </users>
+    <password-complexity>
+      <enabled>yes</enabled>
+      <minimum-length>8</minimum-length>
+    </password-complexity>
+  </mgt-config>
+  <shared>
+    <pre-rulebase>
+      <security>
+        <rules/>
+      </security>
+    </pre-rulebase>
+    <log-settings>
+      <profiles>
+        <entry name="Panorama">
+          <match-list>
+            <entry name="Panorama">
+              <log-type>traffic</log-type>
+              <filter>All Logs</filter>
+              <send-to-panorama>yes</send-to-panorama>
+              <quarantine>no</quarantine>
+            </entry>
+          </match-list>
+        </entry>
+      </profiles>
+    </log-settings>
+  </shared>
+  <devices>
+    <entry name="localhost.localdomain">
+      <deviceconfig>
+        <system>
+          <update-server>updates.paloaltonetworks.com</update-server>
+          <update-schedule>
+            <threats>
+              <recurring>
+                <weekly>
+                  <day-of-week>wednesday</day-of-week>
+                  <at>01:02</at>
+                  <action>download-only</action>
+                </weekly>
+              </recurring>
+            </threats>
+          </update-schedule>
+          <timezone>US/Pacific</timezone>
+          <service>
+            <disable-telnet>yes</disable-telnet>
+            <disable-http>yes</disable-http>
+          </service>
+          <device-telemetry>
+            <device-health-performance>yes</device-health-performance>
+            <product-usage>yes</product-usage>
+            <threat-prevention>yes</threat-prevention>
+            <region>Americas</region>
+          </device-telemetry>
+          <type>
+            <dhcp-client>
+              <send-hostname>yes</send-hostname>
+              <send-client-id>no</send-client-id>
+              <accept-dhcp-hostname>no</accept-dhcp-hostname>
+              <accept-dhcp-domain>no</accept-dhcp-domain>
+            </dhcp-client>
+          </type>
+          <hostname>panorama</hostname>
+          <dlsrvr>
+            <interface>mgmt</interface>
+          </dlsrvr>
+          <public-ip-address>52.173.30.114</public-ip-address>
+        </system>
+        <setting>
+          <management>
+            <storage-partition>
+              <internal/>
+            </storage-partition>
+            <hostname-type-in-syslog>FQDN</hostname-type-in-syslog>
+            <initcfg>
+              <type>
+                <dhcp-client>
+                  <send-hostname>yes</send-hostname>
+                  <send-client-id>no</send-client-id>
+                  <accept-dhcp-hostname>no</accept-dhcp-hostname>
+                  <accept-dhcp-domain>no</accept-dhcp-domain>
+                </dhcp-client>
+              </type>
+              <hostname>panorama</hostname>
+              <username>azureuser</username>
+              <public-key>c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCZ1FEUGQ0REd4SzhjWGxJRWRYVWRuL0MwRHpmZGw5U2RwRnVBK2xWUWpTcGZYUzQ5d2QvVlo5Q0swUDRHK1pLL1FjNmVXcjB5Qmg1d1l5d2MzU3p1OStSR3E4aUJFK0VkTmZxU2dlWGJYTVVlTkR3OEJDK0FWdjJYSjdid2orS3J0cjBWWkV5RU4xQlFJaHFxWUNhamNlcE1YdThXTjlvdmwyNTNqK0NpYlJ6SG9kZFlsM05NUWRjb2ZLa0lqWW8xUlNHNFp6NUVHMFRQbDRaN0k3ZkozbTVPdzliWkVKN05FdS9KV080UCtpQk43dGFDeTJvRjRYaW9oRzJ6aWE3WEhDWTZOdU5CQzkveHRjS3BVaHVjMkpSKzJmTHlIM0FJNTdrOXMzWDNTZkEzSDZqMVhRZkV0L29JUEFlTXlmL2pYR3ZpTEMxQjY1MDRnT0R1d09ERXAvcjhPeEYrTVJCU3NQWlBRdDNNM1FaWFNEUndYQ1lvMEc4U1FRcWpuRmpEd204TDZpOFlQWk1DVWN0aEFNMzl5WDVnd0p5SkhKcHRNYU93aENTcUlYY0Jqb09OL2lkaG5EcFcvYUJnZmpibWVMMHUzYndBWHlSVWw4aDRweEZGWVpaYSs4dld0TUx3MHZMRUt5QlNJUzZiZWV3L1J4VmpUbm1UcldnM1ZpSDlEM0U9Cg==</public-key>
+            </initcfg>
+            <secure-conn-client>
+              <enable-secure-inter-lc-communication>no</enable-secure-inter-lc-communication>
+              <certificate-type>
+                <none/>
+              </certificate-type>
+            </secure-conn-client>
+          </management>
+        </setting>
+      </deviceconfig>
+      <template-stack>
+        <entry name="cngfw-az-anton-template-stack">
+          <user-group-source/>
+          <settings>
+            <default-vsys>vsys1</default-vsys>
+          </settings>
+          <devices/>
+          <config>
+            <shared>
+              <log-settings>
+                <system>
+                  <match-list>
+                    <entry name="system">
+                      <filter>All Logs</filter>
+                      <send-to-panorama>yes</send-to-panorama>
+                    </entry>
+                  </match-list>
+                </system>
+                <config>
+                  <match-list>
+                    <entry name="configuration">
+                      <filter>All Logs</filter>
+                      <send-to-panorama>yes</send-to-panorama>
+                    </entry>
+                  </match-list>
+                </config>
+                <userid>
+                  <match-list>
+                    <entry name="userid">
+                      <filter>All Logs</filter>
+                      <send-to-panorama>yes</send-to-panorama>
+                    </entry>
+                  </match-list>
+                </userid>
+                <iptag>
+                  <match-list>
+                    <entry name="iptag">
+                      <filter>All Logs</filter>
+                      <send-to-panorama>yes</send-to-panorama>
+                    </entry>
+                  </match-list>
+                </iptag>
+                <hipmatch>
+                  <match-list>
+                    <entry name="hipmatch">
+                      <filter>All Logs</filter>
+                      <send-to-panorama>yes</send-to-panorama>
+                    </entry>
+                  </match-list>
+                </hipmatch>
+                <globalprotect>
+                  <match-list>
+                    <entry name="globalprotect">
+                      <filter>All Logs</filter>
+                      <send-to-panorama>yes</send-to-panorama>
+                    </entry>
+                  </match-list>
+                </globalprotect>
+              </log-settings>
+            </shared>
+          </config>
+          <templates>
+            <member>test-template</member>
+          </templates>
+          <auto-push-on-1st-conn>yes</auto-push-on-1st-conn>
+        </entry>
+        <entry name="cngfw-az-suhas">
+          <user-group-source/>
+          <settings/>
+        </entry>
+        <entry name="Test-TemplateStack">
+          <user-group-source>
+            <master-device/>
+          </user-group-source>
+          <settings/>
+        </entry>
+        <entry name="cngfw-az-ravi-template-stack">
+          <settings/>
+        </entry>
+      </template-stack>
+      <template>
+        <entry name="test-template">
+          <settings>
+            <default-vsys>vsys1</default-vsys>
+          </settings>
+          <config>
+            <devices>
+              <entry name="localhost.localdomain">
+                <vsys>
+                  <entry name="vsys1"/>
+                </vsys>
+              </entry>
+            </devices>
+          </config>
+        </entry>
+      </template>
+      <device-group>
+        <entry name="cngfw-az-anton">
+          <reference-templates>
+            <member>cngfw-az-anton-template-stack</member>
+          </reference-templates>
+          <plugins>
+            <azure version="5.0.0">
+              <zone-mapping>
+                <private-zones/>
+                <public-zones/>
+              </zone-mapping>
+            </azure>
+          </plugins>
+          <devices/>
+          <profiles>
+            <virus>
+              <entry name="WildFire Inline ML">
+                <decoder>
+                  <entry name="ftp">
+                    <action>default</action>
+                    <wildfire-action>default</wildfire-action>
+                    <mlav-action>default</mlav-action>
+                  </entry>
+                  <entry name="http">
+                    <action>default</action>
+                    <wildfire-action>default</wildfire-action>
+                    <mlav-action>default</mlav-action>
+                  </entry>
+                  <entry name="http2">
+                    <action>default</action>
+                    <wildfire-action>default</wildfire-action>
+                    <mlav-action>default</mlav-action>
+                  </entry>
+                  <entry name="imap">
+                    <action>default</action>
+                    <wildfire-action>default</wildfire-action>
+                    <mlav-action>default</mlav-action>
+                  </entry>
+                  <entry name="pop3">
+                    <action>default</action>
+                    <wildfire-action>default</wildfire-action>
+                    <mlav-action>default</mlav-action>
+                  </entry>
+                  <entry name="smb">
+                    <action>default</action>
+                    <wildfire-action>default</wildfire-action>
+                    <mlav-action>default</mlav-action>
+                  </entry>
+                  <entry name="smtp">
+                    <action>default</action>
+                    <wildfire-action>default</wildfire-action>
+                    <mlav-action>default</mlav-action>
+                  </entry>
+                </decoder>
+                <mlav-engine-filebased-enabled>
+                  <entry name="Windows Executables">
+                    <mlav-policy-action>disable</mlav-policy-action>
+                  </entry>
+                  <entry name="PowerShell Script 1">
+                    <mlav-policy-action>disable</mlav-policy-action>
+                  </entry>
+                  <entry name="PowerShell Script 2">
+                    <mlav-policy-action>disable</mlav-policy-action>
+                  </entry>
+                  <entry name="Executable Linked Format">
+                    <mlav-policy-action>disable</mlav-policy-action>
+                  </entry>
+                  <entry name="MSOffice">
+                    <mlav-policy-action>disable</mlav-policy-action>
+                  </entry>
+                  <entry name="Shell">
+                    <mlav-policy-action>disable</mlav-policy-action>
+                  </entry>
+                </mlav-engine-filebased-enabled>
+              </entry>
+            </virus>
+          </profiles>
+          <log-settings>
+            <profiles/>
+          </log-settings>
+          <pre-rulebase>
+            <security>
+              <rules>
+                <entry name="test-policy" uuid="630ef850-e0b9-4777-ae38-52fb39123027">
+                  <target>
+                    <negate>no</negate>
+                  </target>
+                  <to>
+                    <member>any</member>
+                  </to>
+                  <from>
+                    <member>any</member>
+                  </from>
+                  <source>
+                    <member>address-test</member>
+                  </source>
+                  <destination>
+                    <member>any</member>
+                  </destination>
+                  <source-user>
+                    <member>any</member>
+                  </source-user>
+                  <category>
+                    <member>any</member>
+                  </category>
+                  <application>
+                    <member>call-of-duty</member>
+                  </application>
+                  <service>
+                    <member>application-default</member>
+                  </service>
+                  <source-hip>
+                    <member>any</member>
+                  </source-hip>
+                  <destination-hip>
+                    <member>any</member>
+                  </destination-hip>
+                  <action>deny</action>
+                  <log-setting>Panorama</log-setting>
+                </entry>
+              </rules>
+            </security>
+          </pre-rulebase>
+          <post-rulebase>
+            <security>
+              <rules>
+                <entry name="allow-any" uuid="58c2c0ac-dd81-4009-b66b-d254757b2150">
+                  <target>
+                    <negate>no</negate>
+                  </target>
+                  <to>
+                    <member>any</member>
+                  </to>
+                  <from>
+                    <member>any</member>
+                  </from>
+                  <source>
+                    <member>any</member>
+                  </source>
+                  <destination>
+                    <member>any</member>
+                  </destination>
+                  <source-user>
+                    <member>any</member>
+                  </source-user>
+                  <category>
+                    <member>any</member>
+                  </category>
+                  <application>
+                    <member>any</member>
+                  </application>
+                  <service>
+                    <member>application-default</member>
+                  </service>
+                  <source-hip>
+                    <member>any</member>
+                  </source-hip>
+                  <destination-hip>
+                    <member>any</member>
+                  </destination-hip>
+                  <action>allow</action>
+                </entry>
+              </rules>
+            </security>
+          </post-rulebase>
+          <address>
+            <entry name="address-test">
+              <ip-netmask>10.0.0.0/24</ip-netmask>
+            </entry>
+          </address>
+        </entry>
+        <entry name="TestDG">
+          <devices/>
+        </entry>
+        <entry name="cngfw-az-ravi">
+          <reference-templates>
+            <member>cngfw-az-ravi-template-stack</member>
+          </reference-templates>
+          <plugins>
+            <azure>
+              <zone-mapping>
+                <private-zones/>
+                <public-zones/>
+              </zone-mapping>
+            </azure>
+          </plugins>
+        </entry>
+        <entry name="cngfw-az-demo">
+          <reference-templates>
+            <member>cngfw-az-ravi-template-stack</member>
+          </reference-templates>
+          <plugins>
+            <azure>
+              <zone-mapping>
+                <private-zones/>
+                <public-zones/>
+              </zone-mapping>
+            </azure>
+          </plugins>
+        </entry>
+        <entry name="cngfw-az-vwan">
+          <reference-templates>
+            <member>cngfw-az-anton-template-stack</member>
+          </reference-templates>
+          <plugins>
+            <azure>
+              <zone-mapping>
+                <private-zones/>
+                <public-zones/>
+              </zone-mapping>
+            </azure>
+          </plugins>
+          <devices/>
+        </entry>
+        <entry name="cngfw-az-vwan2">
+          <reference-templates>
+            <member>cngfw-az-anton-template-stack</member>
+          </reference-templates>
+          <plugins>
+            <azure>
+              <zone-mapping>
+                <private-zones/>
+                <public-zones/>
+              </zone-mapping>
+            </azure>
+          </plugins>
+          <devices/>
+        </entry>
+        <entry name="cngfw-az-eastus2">
+          <reference-templates>
+            <member>cngfw-az-anton-template-stack</member>
+          </reference-templates>
+          <plugins>
+            <azure>
+              <zone-mapping>
+                <private-zones/>
+                <public-zones/>
+              </zone-mapping>
+            </azure>
+          </plugins>
+          <devices/>
+        </entry>
+        <entry name="cngfw-az-vwan-eastus">
+          <reference-templates>
+            <member>cngfw-az-anton-template-stack</member>
+          </reference-templates>
+          <plugins>
+            <azure>
+              <zone-mapping>
+                <private-zones/>
+                <public-zones/>
+              </zone-mapping>
+            </azure>
+          </plugins>
+          <devices/>
+          <pre-rulebase>
+            <security>
+              <rules/>
+            </security>
+          </pre-rulebase>
+        </entry>
+        <entry name="cngfw-az-vwan-westeu">
+          <reference-templates>
+            <member>cngfw-az-anton-template-stack</member>
+          </reference-templates>
+          <plugins>
+            <azure>
+              <zone-mapping>
+                <private-zones/>
+                <public-zones/>
+              </zone-mapping>
+            </azure>
+          </plugins>
+          <devices/>
+          <pre-rulebase>
+            <security>
+              <rules>
+                <entry name="block-url-categories" uuid="93efdc69-5045-48b1-b7ae-0b6b6f47518a">
+                  <target>
+                    <negate>no</negate>
+                  </target>
+                  <to>
+                    <member>any</member>
+                  </to>
+                  <from>
+                    <member>any</member>
+                  </from>
+                  <source>
+                    <member>any</member>
+                  </source>
+                  <destination>
+                    <member>any</member>
+                  </destination>
+                  <source-user>
+                    <member>any</member>
+                  </source-user>
+                  <category>
+                    <member>abused-drugs</member>
+                    <member>adult</member>
+                    <member>command-and-control</member>
+                    <member>extremism</member>
+                    <member>hacking</member>
+                    <member>high-risk</member>
+                    <member>malware</member>
+                    <member>nudity</member>
+                    <member>phishing</member>
+                    <member>ransomware</member>
+                  </category>
+                  <application>
+                    <member>any</member>
+                  </application>
+                  <service>
+                    <member>application-default</member>
+                  </service>
+                  <source-hip>
+                    <member>any</member>
+                  </source-hip>
+                  <destination-hip>
+                    <member>any</member>
+                  </destination-hip>
+                  <action>deny</action>
+                  <log-setting>Panorama</log-setting>
+                </entry>
+                <entry name="block-url-categories-1" uuid="f0a2f883-9052-4516-bd40-af4828314c42">
+                  <target>
+                    <negate>no</negate>
+                  </target>
+                  <to>
+                    <member>any</member>
+                  </to>
+                  <from>
+                    <member>any</member>
+                  </from>
+                  <source>
+                    <member>any</member>
+                  </source>
+                  <destination>
+                    <member>any</member>
+                  </destination>
+                  <source-user>
+                    <member>any</member>
+                  </source-user>
+                  <category>
+                    <member>abused-drugs</member>
+                    <member>adult</member>
+                    <member>command-and-control</member>
+                    <member>extremism</member>
+                    <member>hacking</member>
+                    <member>high-risk</member>
+                    <member>malware</member>
+                    <member>nudity</member>
+                    <member>phishing</member>
+                    <member>ransomware</member>
+                  </category>
+                  <application>
+                    <member>any</member>
+                  </application>
+                  <service>
+                    <member>application-default</member>
+                  </service>
+                  <source-hip>
+                    <member>any</member>
+                  </source-hip>
+                  <destination-hip>
+                    <member>any</member>
+                  </destination-hip>
+                  <action>deny</action>
+                  <log-setting>Panorama</log-setting>
+                </entry>
+                <entry name="deny-monaco" uuid="8213d28c-a1ba-4063-b2fa-67e050559208">
+                  <target>
+                    <negate>no</negate>
+                  </target>
+                  <to>
+                    <member>any</member>
+                  </to>
+                  <from>
+                    <member>any</member>
+                  </from>
+                  <source>
+                    <member>any</member>
+                  </source>
+                  <destination>
+                    <member>MC</member>
+                  </destination>
+                  <source-user>
+                    <member>any</member>
+                  </source-user>
+                  <category>
+                    <member>any</member>
+                  </category>
+                  <application>
+                    <member>any</member>
+                  </application>
+                  <service>
+                    <member>application-default</member>
+                  </service>
+                  <source-hip>
+                    <member>any</member>
+                  </source-hip>
+                  <destination-hip>
+                    <member>any</member>
+                  </destination-hip>
+                  <action>deny</action>
+                  <log-setting>Panorama</log-setting>
+                </entry>
+              </rules>
+            </security>
+          </pre-rulebase>
+        </entry>
+        <entry name="cngfw-az-vnet-centralus">
+          <reference-templates>
+            <member>cngfw-az-anton-template-stack</member>
+          </reference-templates>
+          <plugins>
+            <azure>
+              <zone-mapping>
+                <private-zones/>
+                <public-zones/>
+              </zone-mapping>
+            </azure>
+          </plugins>
+          <devices/>
+        </entry>
+      </device-group>
+      <plugins>
+        <azure version="5.1.0">
+          <cloud-device-group>
+            <entry name="cngfw-az-anton">
+              <template-stack>cngfw-az-anton-template-stack</template-stack>
+              <panorama-ip>52.173.30.114</panorama-ip>
+              <pin-id>-AQ==YSEeAjKgwBQOrwj5cJ9fopREvH8=P78S2CPhdyx4kivSU5xZV1GI/ZrBGPzRSE7UAMOtOEhoxOt/L79EW5dH29WQPRHW</pin-id>
+              <pin-value>-AQ==pLIMkN/sfFT+A8SZSg6I9S48PYk=9h3JiHll8gVq0UDP+GXnFf1nW28Y7WvP/LfQhk7XIbiY79hqr9jN57wdr/0uHLOB</pin-value>
+              <collector-group>LCGroup</collector-group>
+            </entry>
+            <entry name="cngfw-az-ravi">
+              <template-stack>cngfw-az-ravi-template-stack</template-stack>
+              <panorama-ip>52.173.30.114</panorama-ip>
+              <collector-group>LCGroup</collector-group>
+              <pin-id>-AQ==8SoNqNTaNWN9mWMCIpF1NyOxHqg=j/c7JvwtJ5tE/h5VV5copFQtrz0Y79PeUAh9qlJwLMihGa3cVC8sMk8bBPO3Z7+A</pin-id>
+              <pin-value>-AQ==IzruYZ5zi/nOjlxpNHQyT3+OPDQ=OvXv0H7JSB5wmvZGZQjZGSsQTIHpQyUmRsZ7ewdZ1Ptg0YgWmafHGMsyB4ABag3b</pin-value>
+            </entry>
+            <entry name="cngfw-az-demo">
+              <template-stack>cngfw-az-ravi-template-stack</template-stack>
+              <panorama-ip>10.6.0.4</panorama-ip>
+              <collector-group>LCGroup</collector-group>
+            </entry>
+            <entry name="cngfw-az-vwan-eastus">
+              <template-stack>cngfw-az-anton-template-stack</template-stack>
+              <panorama-ip>52.173.30.114</panorama-ip>
+              <collector-group>LCGroup</collector-group>
+              <pin-id>-AQ==Onmg1qUZWfiBecSq2I84JQA7k8s=VHBSBtgZ/3djikaU7qz3EnPOkV+Gqs6IWdq2VD7jH5R5EZH/Au8TUIBovMqO4qu9</pin-id>
+              <pin-value>-AQ==6mwkdvvT1Pu3D6w8ENiKIZCH9c4=C4cuAjlvNrcmL537MNAShFzdBMNqZIsunSSi3SpqmOopsj5K23Kd/UH1akYSHiO7</pin-value>
+            </entry>
+            <entry name="cngfw-az-vwan-westeu">
+              <template-stack>cngfw-az-anton-template-stack</template-stack>
+              <panorama-ip>52.173.30.114</panorama-ip>
+              <collector-group>LCGroup</collector-group>
+              <pin-id>-AQ==xZGVMhUQ6ud6L/MnnpktkP2aNy4=u2mYQnuFCRVGZUEMTHWSPmw2fq8Z6tkdozn3Y+Y/TGUmc9aymySd1JuhmZDdIdoT</pin-id>
+              <pin-value>-AQ==r4KLz3zrUyPH0Jc4xAKhDrI0oqY=eYRXo/9X6Vm6Du5/gn07PCNvhY5f+6IX68y4QEl+Mcq1mtoXjNZOQu3N7LwwtgLS</pin-value>
+            </entry>
+            <entry name="cngfw-az-vnet-centralus">
+              <template-stack>cngfw-az-anton-template-stack</template-stack>
+              <panorama-ip>52.173.30.114</panorama-ip>
+              <collector-group>LCGroup</collector-group>
+            </entry>
+          </cloud-device-group>
+        </azure>
+      </plugins>
+      <log-collector>
+        <entry name="000710014110">
+          <deviceconfig>
+            <system>
+              <service>
+                <disable-device-log-collection>no</disable-device-log-collection>
+                <disable-collector-group-communication>no</disable-collector-group-communication>
+                <disable-ssh>no</disable-ssh>
+                <disable-icmp>no</disable-icmp>
+                <disable-snmp>yes</disable-snmp>
+                <disable-syslog-forwarding>no</disable-syslog-forwarding>
+                <disable-device-telemetry-forwarding>no</disable-device-telemetry-forwarding>
+              </service>
+              <speed-duplex>auto-negotiate</speed-duplex>
+              <mtu>1500</mtu>
+            </system>
+          </deviceconfig>
+          <secure-conn-client>
+            <certificate-type>
+              <none/>
+            </certificate-type>
+          </secure-conn-client>
+          <disk-settings>
+            <disk-pair>
+              <entry name="A"/>
+            </disk-pair>
+          </disk-settings>
+        </entry>
+      </log-collector>
+      <log-collector-group>
+        <entry name="LCGroup">
+          <monitoring-setting>
+            <snmp-setting>
+              <access-setting>
+                <version>
+                  <v2c/>
+                </version>
+              </access-setting>
+            </snmp-setting>
+          </monitoring-setting>
+          <logfwd-setting>
+            <collectors>
+              <member>000710014110</member>
+            </collectors>
+          </logfwd-setting>
+          <general-setting>
+            <management>
+              <quota-settings/>
+            </management>
+          </general-setting>
+        </entry>
+      </log-collector-group>
+    </entry>
+  </devices>
+  <readonly>
+    <max-internal-id>36</max-internal-id>
+    <devices>
+      <entry name="localhost.localdomain">
+        <template-stack>
+          <entry name="cngfw-az-anton-template-stack">
+            <id>11</id>
+          </entry>
+          <entry name="cngfw-az-suhas">
+            <id>14</id>
+          </entry>
+          <entry name="Test-TemplateStack">
+            <id>16</id>
+          </entry>
+          <entry name="cngfw-az-ravi-template-stack">
+            <id>19</id>
+          </entry>
+        </template-stack>
+        <device-group>
+          <entry name="cngfw-az-anton">
+            <id>12</id>
+          </entry>
+          <entry name="TestDG">
+            <id>15</id>
+          </entry>
+          <entry name="cngfw-az-ravi">
+            <id>20</id>
+          </entry>
+          <entry name="cngfw-az-demo">
+            <id>22</id>
+          </entry>
+          <entry name="cngfw-az-vwan">
+            <id>24</id>
+          </entry>
+          <entry name="cngfw-az-vwan2">
+            <id>26</id>
+          </entry>
+          <entry name="cngfw-az-eastus2">
+            <id>28</id>
+          </entry>
+          <entry name="cngfw-az-vwan-eastus">
+            <id>30</id>
+          </entry>
+          <entry name="cngfw-az-vwan-westeu">
+            <id>32</id>
+          </entry>
+          <entry name="cngfw-az-vnet-centralus">
+            <id>34</id>
+          </entry>
+        </device-group>
+        <plugins>
+          <azure>
+            <cloud-device-group>
+              <entry name="cngfw-az-anton">
+                <id>13</id>
+              </entry>
+              <entry name="cngfw-az-ravi">
+                <id>21</id>
+              </entry>
+              <entry name="cngfw-az-demo">
+                <id>23</id>
+              </entry>
+              <entry name="cngfw-az-vwan-eastus">
+                <id>31</id>
+              </entry>
+              <entry name="cngfw-az-vwan-westeu">
+                <id>33</id>
+              </entry>
+              <entry name="cngfw-az-vnet-centralus">
+                <id>35</id>
+              </entry>
+            </cloud-device-group>
+          </azure>
+        </plugins>
+        <template>
+          <entry name="test-template">
+            <id>36</id>
+          </entry>
+        </template>
+      </entry>
+    </devices>
+  </readonly>
+</config>
